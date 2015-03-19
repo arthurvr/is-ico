@@ -1,0 +1,31 @@
+{
+  "name": "is-ico",
+  "description": "Check if a Buffer/Uint8Array is a .ico file",
+  "author": "Arthur Verschaeve",
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": "arthurvr/is-ico",
+  "keywords": [
+    "icon",
+    "favicon",
+    "image",
+    "check",
+    "is",
+    "detect",
+    "magic number",
+    "buffer",
+    "uint8array"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/arthurvr/is-ico",
+  "devDependencies": {
+    "mocha": "*",
+    "read-chunk": "^1.0.1"
+  }
+}

@@ -13,7 +13,7 @@ $ npm install --save is-ico
 ```js
 var readChunk = require('read-chunk'); // npm install read-chunk
 var isIco = require('is-ico');
-var buffer = readChunk.sync('video.ico', 0, 4);
+var buffer = readChunk.sync('favicon.ico', 0, 4);
 
 isIco(buffer);
 //=> true

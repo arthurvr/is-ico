@@ -1,5 +1,4 @@
 'use strict';
-
 module.exports = function (buf) {
   if (!buf || buf.length < 4) {
     return false;

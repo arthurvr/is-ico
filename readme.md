@@ -21,4 +21,4 @@ isIco(buffer);
 
 ## License
 
-MIT
+MIT © [Arthur Verschaeve](https://github.com/arthurvr)

@@ -1,4 +1,4 @@
-# is-ico [![Build Status](https://secure.travis-ci.org/arthurvr/is-ico.png?branch=master)](https://travis-ci.org/arthurvr/is-ico)
+# is-ico [![Build Status](https://travis-ci.org/arthurvr/is-ico.svg?branch=master)](https://travis-ci.org/arthurvr/is-ico)
 
 > Check if a Buffer/Uint8Array is a `.ico` file
 

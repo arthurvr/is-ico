@@ -2,11 +2,13 @@
 
 > Check if a Buffer/Uint8Array is a `.ico` file
 
+
 ## Installation
 
 ```
 $ npm install --save is-ico
 ```
+
 
 ## Usage
 
@@ -18,6 +20,7 @@ var buffer = readChunk.sync('favicon.ico', 0, 4);
 isIco(buffer);
 //=> true
 ```
+
 
 ## License
 

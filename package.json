@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "xo && mocha test"
   },
   "repository": "arthurvr/is-ico",
   "keywords": [
@@ -26,6 +26,14 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "*",
+    "xo": "*",
     "read-chunk": "^1.0.1"
+  },
+  "xo": {
+    "space": 2,
+    "envs": [
+      "node",
+      "mocha"
+    ]
   }
 }

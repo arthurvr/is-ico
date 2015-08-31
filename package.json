@@ -1,7 +1,11 @@
 {
   "name": "is-ico",
   "description": "Check if a Buffer/Uint8Array is a .ico file",
-  "author": "Arthur Verschaeve",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -20,7 +24,6 @@
     "uint8array"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/arthurvr/is-ico",
   "devDependencies": {
     "mocha": "*",
     "read-chunk": "^1.0.1"

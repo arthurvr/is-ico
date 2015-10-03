@@ -9,7 +9,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava test/test.js"
+    "test": "xo && ava"
   },
   "repository": "arthurvr/is-ico",
   "keywords": [

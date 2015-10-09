@@ -13,9 +13,9 @@ $ npm install --save is-ico
 ## Usage
 
 ```js
-var readChunk = require('read-chunk'); // npm install read-chunk
-var isIco = require('is-ico');
-var buffer = readChunk.sync('favicon.ico', 0, 4);
+const readChunk = require('read-chunk'); // npm install read-chunk
+const isIco = require('is-ico');
+const buffer = readChunk.sync('favicon.ico', 0, 4);
 
 isIco(buffer);
 //=> true
